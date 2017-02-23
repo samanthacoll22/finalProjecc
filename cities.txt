@@ -1,0 +1,20 @@
+london
+bangkok
+paris
+dubai
+istanbul
+new york
+singapore
+kuala lumpar
+seoul
+hong kong
+tokyo
+barcelona
+amsterdam
+rome
+milan
+taipei
+shanghai
+vienna
+prague
+los angeles
