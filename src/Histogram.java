@@ -9,7 +9,6 @@ import java.awt.EventQueue;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
-import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 import javax.swing.JFrame;
@@ -32,11 +31,11 @@ public class Histogram {
 
     public void histogramGraph() {
         int width = s.getAttempts().size();
-        int height = s.getTimes().size();
+        int height = s.getCosts().size();
         int[][] data = new int[width][height];
         for (int c = 0; c < height; c++) {
             for (int r = 0; r < width; r++) {
-                data[c][r] = (int)(100 * Math.random());
+              data[c][r] = (int)(100 * Math.random());
             }
         }
         Map<Integer, Integer> mapHistory = new TreeMap<Integer, Integer>();

@@ -1,0 +1,125 @@
+Tokyo,33200000
+New York,17800000
+Sao Paulo,17700000
+Seoul,17500000
+Mexico City,17400000
+Osaka,16425000
+Manila,14750000
+Mumbai,14350000
+Delhi,14300000
+Jakarta,14250000
+Lagos,13400000
+Kolkata,12700000
+Cairo,12200000
+Los Angeles,11789000
+Buenos Aires,11200000
+Rio de Janeiro,10800000
+Moscow,10500000
+Shanghai,10000000
+Karachi,09800000
+Paris,09645000
+Istanbul,09000000
+Nagoya,09000000
+Beijing,08614000
+Chicago,08308000
+London,08278000
+Shenzhen,08000000
+Dusseldorf,07350000
+Tehran,07250000
+Bogota,07000000
+Lima,07000000
+Bangkok,06500000
+Johannesburg,06000000
+Chennai,05950000
+Taipei,05700000
+Baghdad,05500000
+Santiago,05425000
+Bangalore,05400000
+Hyderabad,05300000
+St Petersburg,05300000
+Philadelphia,05149000
+Lahore,05100000
+Kinshasa,05000000
+Miami,04919000
+Ho Chi Minh City,04900000
+Madrid,04900000
+Tianjin,04750000
+Kuala Lumpur,04400000
+Toronto,04367000
+Milan,04250000
+Shenyang,04200000
+Dallas,04146000
+Boston,04032000
+Belo Horizonte,04000000
+Khartoum,04000000
+Riyadh,04000000
+Singapore,04000000
+Washington,03934000
+Detroit,03903000
+Barcelona,03900000
+Houston,03823000
+Athens,03685000
+Berlin,03675000
+Sydney,03502000
+Atlanta,03500000
+Guadalajara,03500000
+San Francisco,03229000
+Montreal,03216000
+Monterey,03200000
+Melbourne,03162000
+Ankara,03100000
+Recife,03025000
+Phoenix,02907000
+Durban,02900000
+Porto Alegre,02800000
+Dalian,02750000
+Jeddah,02750000
+Seattle,02712000
+Cape Town,02700000
+San Diego,02674000
+Fortaleza,02650000
+Curitiba,02500000
+Rome,02500000
+Naples,02400000
+Minneapolis,02389000
+Tel Aviv,02300000
+Birmingham,02284000
+Frankfurt,02260000
+Lisbon,02250000
+Manchester,02245000
+San Juan,02217000
+Katowice,02200000
+Tashkent,02200000
+Fukuoka,02150000
+Baku,02100000
+St. Louis,02078000
+Baltimore,02076000
+Sapporo,02075000
+St. Petersburg,02062000
+Taichung,02000000
+Warsaw,02000000
+Denver,01985000
+Cologne,01960000
+Hamburg,01925000
+Dubai,01900000
+Pretoria,01850000
+Vancouver,01830000
+Beirut,01800000
+Budapest,01800000
+Cleveland,01787000
+Pittsburgh,01753000
+Campinas,01750000
+Harare,01750000
+Brasilia,01625000
+Kuwait,01600000
+Munich,01600000
+Portland,01583000
+Brussels,01570000
+Vienna,01550000
+San Jose,01538000
+Damman,01525000
+Copenhagen,01525000
+Brisbane,01508000
+San Bernardino,01507000
+Cincinnati,01503000
+Accra,01500000

@@ -1,0 +1,6 @@
+Attempt Total Cost
+1         29
+2         27
+3         28
+4         29
+5         24

@@ -19,7 +19,6 @@ public class LoginLayout extends JDialog {
 
     public LoginLayout(Frame parent) {
         super(parent, "Login", true);
-        //
         JPanel panel = new JPanel(new GridBagLayout());
         GridBagConstraints cs = new GridBagConstraints();
 
@@ -76,11 +75,12 @@ public class LoginLayout extends JDialog {
             }
         });
         btnCancel = new JButton("Cancel");
-        btnCancel.addActionListener(new ActionListener() {
 
+        btnCancel.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 dispose();
             }
+
         });
         JPanel bp = new JPanel();
         bp.add(btnLogin);
