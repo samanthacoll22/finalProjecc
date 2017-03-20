@@ -9,7 +9,7 @@ import javax.swing.border.*;
 
 public class LoginLayout extends JDialog {
 
-    private JTextField tfUsername;
+    public JTextField tfUsername;
     private JPasswordField pfPassword;
     private JLabel lbUsername;
     private JLabel lbPassword;
@@ -17,8 +17,9 @@ public class LoginLayout extends JDialog {
     private JButton btnCancel;
     private boolean succeeded;
 
+
     public LoginLayout(Frame parent) {
-        super(parent, "Login", true);
+        super(parent, "Login:", true);
         JPanel panel = new JPanel(new GridBagLayout());
         GridBagConstraints cs = new GridBagConstraints();
 
@@ -85,6 +86,7 @@ public class LoginLayout extends JDialog {
         JPanel bp = new JPanel();
         bp.add(btnLogin);
         bp.add(btnCancel);
+        getRootPane().setDefaultButton(btnLogin);
 
         getContentPane().add(panel, BorderLayout.CENTER);
         getContentPane().add(bp, BorderLayout.PAGE_END);
@@ -94,15 +96,18 @@ public class LoginLayout extends JDialog {
         setLocationRelativeTo(parent);
     }
 
+
     public String getUsername() {
         return tfUsername.getText().trim();
     }
 
     public String getPassword() {
+
         return new String(pfPassword.getPassword());
     }
 
     public boolean isSucceeded() {
+
         return succeeded;
     }
 }

@@ -1,0 +1,5 @@
+<root>
+    <item name='javax.swing.JTextArea void append(java.lang.String)'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

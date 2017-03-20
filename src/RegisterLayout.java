@@ -27,7 +27,7 @@ public class RegisterLayout extends JDialog  {
     private boolean succeeded;
 
     public RegisterLayout(Frame parent) {
-        super(parent, "Register", true);
+        super(parent, "Register:", true);
         JPanel panel = new JPanel(new GridBagLayout());
         GridBagConstraints cs = new GridBagConstraints();
 
@@ -68,15 +68,23 @@ public class RegisterLayout extends JDialog  {
                             "Hi " + getUsername() + "! You have successfully registered as a new user.",
                             "Register",
                             JOptionPane.INFORMATION_MESSAGE);
+                    Login.usernames.add(getUsername());
+                    Login.passwords.add(getPassword());
+                    Login.averageLetterTimes.add(0.0);
                     try {
                         saveFile();
-                    }
-                    catch (Exception x) {
+                    } catch (Exception x) {
                         throw new RuntimeException(x); // Throw run-time because can't do IO
                     }
-                        succeeded = true;
+                    succeeded = true;
                     dispose();
- //
+
+                } else if(getUsername().equals("")){
+                    JOptionPane.showMessageDialog(RegisterLayout.this,
+                            "You must enter a username AND password to register",
+                            "Register",
+                            JOptionPane.INFORMATION_MESSAGE);
+                    succeeded = false;
 
                 } else {
                     JOptionPane.showMessageDialog(RegisterLayout.this,
@@ -102,6 +110,7 @@ public class RegisterLayout extends JDialog  {
         JPanel bp = new JPanel();
         bp.add(btnRegister);
         bp.add(btnCancel);
+        getRootPane().setDefaultButton(btnRegister);
 
         getContentPane().add(panel, BorderLayout.CENTER);
         getContentPane().add(bp, BorderLayout.PAGE_END);
@@ -131,13 +140,16 @@ public class RegisterLayout extends JDialog  {
                 fw = new FileWriter("userInformation.txt",true);
                 pw = new PrintWriter(fw);
 
-                pw.write("\n" + getUsername() + "\n" + getPassword());
+                pw.write(getUsername() + "\n" + getPassword() + "\n");
                 pw.close();
                 fw.close();
+
         } catch (FileNotFoundException e){
             System.out.println("File not found.");
         }
+
     }
+
 }
 
 
